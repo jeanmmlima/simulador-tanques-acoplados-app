@@ -2,7 +2,7 @@
 
 ## Simulador de Tanques Acoplados Quaser com driver de comunicação via Simulink - MATLAB.
 
-O sistema de tanques acoplados Quanser é uma planta didática utilizada nas disciplinas de Controle de Sistemas da UFRN. A implementação das rotidas é feita via Simulink. No Modelo simulado dos tanques, a implementação das rotinas de controle também é feita via Simulink da mesma forma que é estabelecida para o sistema real.
+O sistema de tanques acoplados Quanser é uma planta didática utilizada nas disciplinas de Controle de Sistemas ofertadas pelo [Departamento de Engenharia de Computação e Automação](www.dca.ufrn.br) da [UFRN](www.ufrn.br). A implementação das rotidas é feita via Simulink. No Modelo simulado dos tanques, a implementação das rotinas de controle também é feita via Simulink da mesma forma que é estabelecida para o sistema real.
 
 Para construção do simulador, utilizou-se o modelo matemático da planta com adição de ruído. Além disso, um modelo baseado em redes neurais artificiais (RNA) também foi construído para inferência da dinâmica da planta. Os dois modos ficam disponíveis. O modelo matemático é o padrão de funcionamento. O modelo baseado em RNA é usado quando o "checkbox" *Usar RNA* é ativado.
 
@@ -32,3 +32,5 @@ Para construção do simulador, utilizou-se o modelo matemático da planta com a
 4. Execute o script *run_coupled_tanks.m* novamente.
 
 #### **OBS**: Não alterar os blocos da simulação base presentes no *subsystem* TanquesAcoplados.
+
+Qualquer dúvida ou erro encontrado, por favor, entrar em contato! <jean@dca.ufrn.br>
